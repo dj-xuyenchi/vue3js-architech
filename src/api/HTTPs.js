@@ -2,6 +2,7 @@ const axios = require("axios");
 
 class HTTPSingleton {
   static config = {
+    baseURL: "",
     headers: {
       "Content-Type": "application/json",
       "Access-Control-Allow-Origin": "*",
